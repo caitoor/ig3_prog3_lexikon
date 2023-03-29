@@ -45,8 +45,11 @@ nav ul li {
     border: 1px solid red;
 }
 
-#tiles {
+#tile-wrapper {
     overflow: hidden;
+    display: flex;
+/*  flex-direction: column;*/
+    
 }
 
 .tile {
@@ -57,6 +60,7 @@ nav ul li {
     height: 300px;
     float: left;
     margin: 1em;
+    position: relative;
 }
 
 .tile h3 {
@@ -67,6 +71,8 @@ nav ul li {
 }
 
 .tile-tags {
+    position: absolute;
+    bottom: 1em;
 }
 
 .tile-tags ul {
