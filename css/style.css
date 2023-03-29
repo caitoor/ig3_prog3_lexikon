@@ -48,8 +48,14 @@ nav ul li {
 #tile-wrapper {
     overflow: hidden;
     display: flex;
-/*  flex-direction: column;*/
-    
+    /*  flex-direction: column;*/
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    gap: 1em 3em;
+    /*     align-items:center;
+ */
 }
 
 .tile {
@@ -58,8 +64,6 @@ nav ul li {
     background-color: darkseagreen;
     width: 250px;
     height: 300px;
-    float: left;
-    margin: 1em;
     position: relative;
 }
 
