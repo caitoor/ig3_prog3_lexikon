@@ -1,0 +1,32 @@
+h3 {color:red;}
+
+body {
+    font-family: "Helvetica", sans-serif;
+        
+        color:#333333;
+}
+
+.kursiv {
+      font-style: italic;
+}
+
+.unterstrichen {
+    text-decoration:underline;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    margin-top: -20px;
+}
+
+li {
+    padding: 5px
+}
+
+h1 {
+ letter-spacing: 4px;   
+font-weight: normal;
+}

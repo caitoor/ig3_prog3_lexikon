@@ -61,10 +61,19 @@ nav ul li {
 .tile {
     border: 1px solid red;
     border-radius: 0.5em;
-    background-color: darkseagreen;
-    width: 250px;
+/*     background-color: darkseagreen;
+ */    
+ background-image: linear-gradient(green, blue);
+ width: 250px;
     height: 300px;
     position: relative;
+    transition: all 1s ease-in;
+    cursor: pointer;
+}
+
+.tile:hover {
+    background-image: linear-gradient(red, yellow);
+    border: 10px dashed greenyellow;
 }
 
 .tile h3 {
