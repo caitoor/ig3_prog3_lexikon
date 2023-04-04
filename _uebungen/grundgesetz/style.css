@@ -1,17 +1,18 @@
-h3 {color:red;}
+h3 {
+    color: red;
+}
 
 body {
-    font-family: "Helvetica", sans-serif;
-        
-        color:#333333;
+    font-family: "Helvetica", Arial, sans-serif;
+    color: #333333;
 }
 
 .kursiv {
-      font-style: italic;
+    font-style: italic;
 }
 
 .unterstrichen {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 h2 {
@@ -23,10 +24,10 @@ h2 {
 }
 
 li {
-    padding: 5px
+    padding: 5px;
 }
 
 h1 {
- letter-spacing: 4px;   
-font-weight: normal;
+    letter-spacing: 4px;
+    font-weight: normal;
 }

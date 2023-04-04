@@ -1,9 +1,0 @@
-Repo
-git
-responsive
-CMS
-.gitignore
-URL
-Systemschrift
-margin / padding
-HTML5
