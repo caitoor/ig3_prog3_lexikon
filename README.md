@@ -1,6 +1,17 @@
 # ig3_prog3_lexikon
 Fachbegriffe-Lexikon für Webentwicklung und so (IG3 / Prog3)
 
+## Semesteraufgabe Teil 1 (HTML/CSS)
+Alle Kursteilnehmer*innen müssen einen Begriff des Programmieren3-Lexikons als eigene Unterseite mit folgenden Anforderungen ausarbeiten:
+
+- Eigenes Layout
+- ausführliche Erklärung des Begriffs
+- Text-Bild-Kombination als Content
+- Seitenlayout mit grid, Inhalt mit flex 
+- Responsive (mobile / desktop)
+- Verlinkung auf Hauptseite (../index.html)
+- JSON-Quickfacts
+
 ## Noch zur Verfügung stehende Begriffe
 * .gitignore
 * Bootstrap
@@ -49,6 +60,8 @@ name_des_themas/
 index.html
 tile.json
 ```
+
+Bitte auf korrekte Benennung der Dateien und Ordner achten!
 
 Der Inhalt der `tile.json` ist folgender:
 ```
