@@ -7,10 +7,13 @@ Alle Kursteilnehmer*innen müssen einen Begriff des Programmieren3-Lexikons als 
 - Eigenes Layout
 - ausführliche Erklärung des Begriffs
 - Text-Bild-Kombination als Content
-- Seitenlayout mit grid, Inhalt mit flex 
+- Seitenlayout mit grid, Inhalt mit flex
+- Google Font lokal einbinden 
 - Responsive (mobile / desktop)
-- Verlinkung auf Hauptseite (../index.html)
-- JSON-Quickfacts
+- Verlinkung auf Hauptseite (`../index.html`)
+- Quickfacts als JSON
+- als Repo auf github hochgeladen
+- Größe des Gesamtordners max. 1 MB
 
 ## Noch zur Verfügung stehende Begriffe
 * .gitignore
@@ -24,10 +27,10 @@ Alle Kursteilnehmer*innen müssen einen Begriff des Programmieren3-Lexikons als 
 * flex (CSS)
 * Framework
 * git
-* grid (CSS)
+* ~~grid (CSS)~~
 * Größeneinheiten im Web (em, rem, px, %, fr, …)
 * Head-Informationen (HTML)
-* HTML5
+* ~~HTML5~~
 * HTML-Grundgerüst
 * Internet
 * JavaScript
@@ -54,6 +57,8 @@ name_des_themas/
 │  ├─ desktop.css
 │  ├─ mobile.css
 │  ├─ style.css
+├─ fonts/
+│  ├─ ...
 ├─ img/
 │  ├─ image1.jpg
 │  ├─ ...
@@ -71,6 +76,7 @@ Der Inhalt der `tile.json` ist folgender:
 "description": "Lorem ipsum ...",
 "tags": ["tag1", "tag2", "tag3"],
 "author": "Fabian Rauch"
+"github": "https://github.com/caitoor/ig3_prog3_lexikon"
 }
 ```
 `title`: Headline der Kachel
