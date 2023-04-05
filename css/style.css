@@ -45,26 +45,15 @@ nav ul li {
     border: 1px solid red;
 }
 
-#tile-wrapper {
-    overflow: hidden;
-    display: flex;
-    /*  flex-direction: column;*/
-    flex-wrap: wrap;
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    gap: 1em 3em;
-    /*     align-items:center;
- */
-}
+
 
 .tile {
     border: 1px solid red;
     border-radius: 0.5em;
-/*     background-color: darkseagreen;
- */    
- background-image: linear-gradient(green, blue);
- width: 250px;
+    /*     background-color: darkseagreen;
+ */
+    background-image: linear-gradient(green, blue);
+    width: 250px;
     height: 300px;
     position: relative;
     transition: all 1s ease-in;
@@ -107,11 +96,3 @@ footer {
     height: 50px;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        background-color: fuchsia;
-    }
-    .tile {
-        width: calc(100% - 2em);
-    }
-}

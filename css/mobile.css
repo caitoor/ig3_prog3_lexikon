@@ -1,0 +1,7 @@
+body {
+    background-color: fuchsia;
+    transition: all 3s;
+}
+.tile {
+    width: calc(100% - 2em);
+}
