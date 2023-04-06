@@ -21,30 +21,30 @@ Alle Kursteilnehmer*innen müssen einen Begriff des Programmieren3-Lexikons als 
 * Breakpoint
 * ~~Browser~~
 * CMS (Content Management System)
-* CSS
-* Developper Tools
+* ~~CSS~~
+* ~~Developper Tools~~
 * Domain
-* flex (CSS)
-* Framework
+* ~~flex (CSS)~~
+* ~~Framework~~
 * git
 * ~~grid (CSS)~~
-* Größeneinheiten im Web (em, rem, px, %, fr, …)
-* Head-Informationen (HTML)
+* ~~Größeneinheiten im Web (em, rem, px, %, fr, …)~~
+* ~~Head-Informationen (HTML)~~
 * ~~HTML5~~
 * HTML-Grundgerüst
-* Internet
+* ~~Internet~~
 * JavaScript
 * ~~jQuery~~
 * Library
-* margin / padding
+* ~~margin / padding~~
 * Mobile first
 * position (CSS)
 * ~~Repository~~
 * ~~responsive Webdesign~~
 * Schriften einbetten
 * Svelte
-* Systemschrift
-* Top Level Domain
+* ~~Systemschrift~~
+* ~~Top Level Domain~~
 * ~~URL~~
 * Webspace
 
