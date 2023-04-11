@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@media-Queries - CSS Konzept für responsive Webseiten</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="flex-container">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../html/html.html">HTML</a></li>
+        <li><a href="../css/css.html">CSS</a></li>
+        <li><a href="../javascript/javascript.html">JavaScript</a></li>
+      </ul>
+    </nav>
+    <h1>@media-Queries</h1>
+  </header>
+  <main>
+    <h2>Was ist @media-Queries?</h2>
+    <p>@media-Queries ist ein CSS-Konzept, das es ermöglicht, das Aussehen und Layout einer Webseite basierend auf der Größe des Viewports des Geräts zu ändern.</p>
+
+    <h2>Wie funktionieren @media-Queries?</h2>
+    <p>Mit @media-Queries können Entwickler*innen CSS-Regeln für spezifische Viewport-Größen definieren, sodass eine Webseite auf unterschiedlichen Geräten unterschiedlich dargestellt wird. Die CSS-Regeln werden aufgerufen, sobald die Breite des Viewports eine bestimmte Grenze erreicht. So können beispielsweise bestimmte Styles für Smartphones, Tablets und Desktop-Computer definiert werden.</p>
+
+    <h2>Beispiel</h2>
+    <p>Ein Beispiel für die Verwendung von @media-Queries könnte wie folgt aussehen:</p>
+
+    <div class="code-container">
+      <pre>
+        <code>
+          &#64media only screen and (max-width: 600px) &#123;
+            body &#123;
+              background-color: red;
+            &#125;
+          &#125;
+        </code>
+      </pre>
+    </div>
+
+    <p>In diesem Beispiel wird die Hintergrundfarbe der Webseite auf Rot geändert, wenn die maximale Breite des Viewports 600px beträgt.</p>
+
+    <h2>Zusammenfassung</h2>
+    <p>@media-Queries ist ein unverzichtbares Konzept für die Erstellung von responsiven Webseiten, die auf verschiedenen Geräten eine optimale Darstellung und Bedienbarkeit bieten sollen.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 by ChatGPT</p>
+    <a href="../../index.html">Zurück zur Hauptseite</a>
+  </footer>
+</body>
+
+</html>

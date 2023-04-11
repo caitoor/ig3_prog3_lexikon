@@ -1,0 +1,55 @@
+  /* mobile.css */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35495e;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: none;
+  }
+  
+  nav.show {
+    display: block;
+    width: 100%;
+  }
+  
+  nav.show ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  nav.show li a {
+    display: block;
+    padding: 10px;
+  }
+  
+  nav.show li a:hover {
+    background-color: #fff;
+    color: #35495e;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  aside {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #35495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  

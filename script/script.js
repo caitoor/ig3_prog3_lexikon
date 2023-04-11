@@ -5,7 +5,7 @@ function buildTiles() {
         const tile = $(`
        
         <div class="tile">
-        <a href="${data[i].folder}/index.html"><h3>${data[i].title}</h3></a>
+        <a href="_abgabe/${data[i].folder}/index.html"><h3>${data[i].title}</h3></a>
         <div class="tile-content">
            <p>${data[i].description}</p>
            

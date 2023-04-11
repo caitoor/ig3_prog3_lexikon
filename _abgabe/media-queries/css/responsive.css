@@ -1,0 +1,16 @@
+/* Responsive Styles */
+@media (max-width: 900px) {
+    /* Tablets */
+    .container {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    /* Mobile */
+    .container {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+  }
+  

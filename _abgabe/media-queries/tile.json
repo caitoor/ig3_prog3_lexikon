@@ -1,0 +1,12 @@
+{
+    "title": "@media-Queries",
+    "folder": "media-queries",
+    "description": "@media-Queries ist ein CSS-Konzept, das es ermöglicht, das Aussehen und Layout einer Webseite basierend auf der Größe des Viewports des Geräts zu ändern.",
+    "tags": [
+        "CSS",
+        "Webdesign",
+        "Layout"
+    ],
+    "author": "chatGPT",
+    "github": "https://github.com/caitoor/ig3_prog3_lexikon"
+}

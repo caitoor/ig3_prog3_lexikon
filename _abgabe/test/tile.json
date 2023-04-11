@@ -1,6 +1,6 @@
 {
-    "title": "Beispiel",
-    "folder": "_abgabe",
+    "title": "Test",
+    "folder": "test",
     "description": "Lorem ipsum dolor sit amet ...",
     "tags": ["HTML", "CSS", "JavaScript"],
     "author": "Fabian Rauch",

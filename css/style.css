@@ -44,13 +44,16 @@ nav ul li {
     padding-right: 1em;
     border: 1px solid red;
 }
-
+#tile-wrapper {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
 .tile {
     border-radius: 0.5em;
     background-color: darkseagreen;
     /*     background-image: linear-gradient(green, blue); */
-    width: 250px;
-    height: 300px;
+ 
     position: relative;
     transition: all 0.25s ease-in;
     cursor: pointer;

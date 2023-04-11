@@ -1,0 +1,8 @@
+{
+    "title": "Git",
+    "folder": "git",
+    "description": "Einführung in das Versionskontrollsystem Git",
+    "tags": ["Versionskontrolle", "Softwareentwicklung"],
+    "author": "chatGPT",
+    "github": "https://github.com/max-muster/ig3_prog3_lexikon"
+}

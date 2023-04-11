@@ -1,0 +1,59 @@
+/* desktop.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35495e;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav li a:hover {
+    background-color: #fff;
+    color: #35495e;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  aside {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #35495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }

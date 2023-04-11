@@ -1,5 +1,7 @@
 const subfolders = [
-    '_abgabe',
+    'test',
+    'git',
+    'media-queries'
 ];
 
 let data = [];
@@ -7,7 +9,7 @@ let loaded = 0;
 
 function loadTileJson(folderName) {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', '../' + folderName + '/tile.json', true);
+    xhr.open('GET', '../_abgabe/' + folderName + '/tile.json', true);
     xhr.onload = function () {
         if (this.status === 200) {
             const tileJson = JSON.parse(this.responseText);

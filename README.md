@@ -7,10 +7,11 @@ Alle Kursteilnehmer*innen müssen einen Begriff des Programmieren3-Lexikons als 
 - Eigenes Layout
 - ausführliche Erklärung des Begriffs
 - Text-Bild-Kombination als Content
-- Seitenlayout mit grid, Inhalt mit flex
+- Allgemeines Seitenlayout mit CSS-grid, 
+- COntentbereich der Seite mit CSS-flex
 - Google Font lokal einbinden 
 - Responsive (mobile / desktop)
-- Verlinkung auf Hauptseite (`../index.html`)
+- Verlinkung auf Hauptseite (`<a href="../../index.html">Hauptseite</a>`)
 - Quickfacts als JSON
 - als Repo auf github hochgeladen
 - Größe des Gesamtordners max. 1 MB
