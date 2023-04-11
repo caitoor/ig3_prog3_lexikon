@@ -23,7 +23,7 @@ Alle Kursteilnehmer*innen müssen einen Begriff des Programmieren3-Lexikons als 
 * CMS (Content Management System)
 * ~~CSS~~
 * ~~Developper Tools~~
-* Domain
+* ~~Domain~~
 * ~~flex (CSS)~~
 * ~~Framework~~
 * git
@@ -31,7 +31,7 @@ Alle Kursteilnehmer*innen müssen einen Begriff des Programmieren3-Lexikons als 
 * ~~Größeneinheiten im Web (em, rem, px, %, fr, …)~~
 * ~~Head-Informationen (HTML)~~
 * ~~HTML5~~
-* HTML-Grundgerüst
+* ~~HTML-Grundgerüst~~
 * ~~Internet~~
 * JavaScript
 * ~~jQuery~~
@@ -75,7 +75,7 @@ Der Inhalt der `tile.json` ist folgender:
 "folder": "name_des_themas",
 "description": "Lorem ipsum ...",
 "tags": ["tag1", "tag2", "tag3"],
-"author": "Fabian Rauch"
+"author": "Fabian Rauch",
 "github": "https://github.com/caitoor/ig3_prog3_lexikon"
 }
 ```
