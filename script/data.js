@@ -25,4 +25,5 @@ for (let i = 0; i < subfolders.length; i++) {
 function onRdy() {
     console.log(loaded + " tiles loaded.");
     console.log(data);
+    buildTiles();
 }
