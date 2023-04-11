@@ -1,5 +1,6 @@
 $(function () {
     const tileContainer = $("#tile-wrapper");
+    console.log("starting building process for " + data.length + " tiles");
     for (let i = 0; i < data.length; i++) {
         const tile = $(`
        
