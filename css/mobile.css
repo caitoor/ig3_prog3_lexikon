@@ -1,7 +1,9 @@
-body {
-    background-color: fuchsia;
-    transition: all 3s;
+#tile-container {
+    width: 100%;
+    padding: 0;
 }
+
 .tile {
-    width: calc(100% - 2em);
+   width: calc(100vw - 3em);
 }
+

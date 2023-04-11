@@ -1,0 +1,17 @@
+@media only screen and (min-width: 768px) {
+    #tile-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1em;
+        max-width: 1400px;
+        margin: 1em auto;
+        align-content: center;
+    }
+
+    .tile {
+        width: 250px;
+        height: 300px;
+    }
+}

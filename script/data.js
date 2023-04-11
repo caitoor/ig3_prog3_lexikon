@@ -3,6 +3,7 @@ const subfolders = [
 ];
 
 let data = [];
+let loaded = 0;
 
 function loadTileJson(folderName) {
     const xhr = new XMLHttpRequest();
@@ -11,6 +12,8 @@ function loadTileJson(folderName) {
         if (this.status === 200) {
             const tileJson = JSON.parse(this.responseText);
             data.push(tileJson);
+            loaded++;
+            if (loaded >= subfolders.length) onRdy();
         }
     };
     xhr.send();
@@ -19,5 +22,7 @@ function loadTileJson(folderName) {
 for (let i = 0; i < subfolders.length; i++) {
     loadTileJson(subfolders[i]);
 }
-
-console.log(data);
+function onRdy() {
+    console.log(loaded + " tiles loaded.");
+    console.log(data);
+}

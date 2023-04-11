@@ -45,31 +45,36 @@ nav ul li {
     border: 1px solid red;
 }
 
-
-
 .tile {
-    border: 1px solid red;
     border-radius: 0.5em;
-    /*     background-color: darkseagreen;
- */
-    background-image: linear-gradient(green, blue);
+    background-color: darkseagreen;
+    /*     background-image: linear-gradient(green, blue); */
     width: 250px;
     height: 300px;
     position: relative;
-    transition: all 1s ease-in;
+    transition: all 0.25s ease-in;
     cursor: pointer;
 }
 
 .tile:hover {
+    background-color: darkcyan;
+    /*     
     background-image: linear-gradient(red, yellow);
     border: 10px dashed greenyellow;
+    */
+}
+
+.tile-content {
+    padding: 1em;
 }
 
 .tile h3 {
     background-color: dodgerblue;
+    color: white;
     border-radius: 0.5em 0.5em 0 0;
     margin: 0;
     line-height: 50px;
+    padding: 0 1em;
 }
 
 .tile-tags {
@@ -95,4 +100,3 @@ nav ul li {
 footer {
     height: 50px;
 }
-
