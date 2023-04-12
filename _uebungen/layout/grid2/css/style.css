@@ -1,0 +1,48 @@
+* {
+    opacity: 0.8;
+}
+
+#wrapper {
+    display: grid;
+    width: 800px;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 30px 400px 100px 30px;
+    grid-template-areas:
+        "hdr hdr hdr hdr"
+        "nv nv nv nv"
+        "asd yllw yllw yllw"
+        "asd orng orng orng"
+        "ftr ftr ftr ftr";
+    gap: 10px;
+}
+
+header {
+    background-color: red;
+    grid-area: hdr;
+}
+
+nav {
+    background-color: blue;
+    grid-area: nv;
+}
+
+aside {
+    background-color: greenyellow;
+    grid-area: asd;
+}
+
+#yellow {
+    background-color: yellow;
+    grid-area: yllw;
+}
+
+#orange {
+    background-color: orange;
+    grid-area: orng;
+}
+
+footer {
+    background-color: fuchsia;
+    grid-area: ftr;
+}
