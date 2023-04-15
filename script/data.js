@@ -1,7 +1,7 @@
 const subfolders = [
-    'test',
     'git',
-    'media-queries'
+    'media-queries',
+    'test'
 ];
 
 let data = [];
@@ -26,6 +26,6 @@ for (let i = 0; i < subfolders.length; i++) {
 }
 function onRdy() {
     console.log(loaded + " tiles loaded.");
-    console.log(data);
+    /*     console.log(data); */
     buildTiles();
 }

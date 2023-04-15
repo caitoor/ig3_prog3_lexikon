@@ -34,7 +34,7 @@ Alle Kursteilnehmer*innen müssen einen Begriff des Programmieren3-Lexikons als 
 * ~~HTML5~~
 * ~~HTML-Grundgerüst~~
 * ~~Internet~~
-* JavaScript
+* ~~JavaScript~~
 * ~~jQuery~~
 * Library
 * ~~margin / padding~~
